@@ -1,8 +1,8 @@
+from sqlmodel import SQLModel, Field
 from datetime import datetime
-from statistics import mean
 from typing import Optional
 from pydantic import validator
-from sqlmodel import Field, SQLModel
+from statistics import mean
 
 
 class Beer(SQLModel, table=True):
